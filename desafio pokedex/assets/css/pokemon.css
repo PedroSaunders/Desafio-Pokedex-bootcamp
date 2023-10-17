@@ -1,0 +1,84 @@
+
+.caixa {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.caixa h1 {
+    text-align: center;
+}
+
+.pokemon-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.pokemon-container img {
+    max-width: 25%;
+    margin-right: 10px;
+    border: 2px solid #0a0a0a;
+    border-radius: 2%;
+    box-shadow: 2px 2px #00051f;
+}
+
+.pokemon-container p {
+    margin-left: 3rem;
+}
+.caixa .pokemon-container .tipos{
+    list-style: none;
+    margin-left: -4.3rem;
+    margin-top: 2.5rem;
+
+}
+.caixa .pokemon-container .stats {
+    list-style: none;
+    margin-left: -5rem;
+    margin-top: 2.5rem;
+
+}
+
+.caixa a {
+    text-decoration-line: none;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    margin-left: 25rem;
+    font-size: .625rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+}
+
+@media (max-width: 768px) {
+    .pokemon-container {
+        background-color: aliceblue;
+        flex-direction: row; 
+        align-items: center; 
+    }
+
+    .pokemon-container img {
+        max-width: 100%; 
+        margin-right: 0; 
+    }
+
+    .pokemon-container p {
+        margin-top: -11rem; 
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    .caixa .pokemon-container .tipos{
+        margin-top: -7.1rem;
+    }
+    .caixa .pokemon-container .stats {
+        margin-bottom: 1rem; 
+    }
+    .caixa .pokemon-container .stats{
+        margin-bottom: 6rem;
+          }
+    .caixa a{
+        margin-left: 18rem; 
+        text-align: center; 
+    }
+}
